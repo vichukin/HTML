@@ -1,0 +1,10 @@
+.main{
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+    background-color: rgba(11, 97, 68, 0.84);
+    padding: 2%;
+}
+body{
+    background-image: url("1.jpg");
+}

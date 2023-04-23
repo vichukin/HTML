@@ -1,0 +1,22 @@
+.small{
+    width: 64px;
+    height: 64px;
+    border: 1px solid black;
+    margin: 0;
+    border-left: 0;
+}
+div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.md{
+    display:grid;
+}
+.smallf{
+    width: 64px;
+    height: 64px;
+    border: 1px solid black;
+    margin: 0;
+}

@@ -1,0 +1,39 @@
+table, tr, td, th{
+    border: 1px solid black;
+}
+tr,th,td{
+    height: 10%;
+    width: 16.5%;
+    margin: 0px;
+    padding: 0px;
+}
+table{
+    border-collapse: collapse;
+    width: 700px;
+    height: 500px;
+}
+thead:first-child{
+    text-align: center;
+    font-weight: bold;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(181, 204, 224);
+    height: 50px;
+}
+
+tbody>tr>td:nth-child(n+2){
+    background-color: 		rgb(240,240,240);
+}
+
+tbody>tr>td:nth-child(2n+2){
+    background-color: 	rgb(224,224,224);;
+}
+tr>td:first-child{
+    font-weight: bold;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(181, 204, 224);
+} 

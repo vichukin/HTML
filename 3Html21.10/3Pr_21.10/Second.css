@@ -1,0 +1,15 @@
+.cont{
+    text-align: center;
+}
+div{
+    width: 400px;
+    background-color: rgb(225,225,225);
+    padding: 10px;
+    border: 1px solid black;
+}
+.dec{
+    list-style-type: decimal;
+}
+a{
+    text-decoration: none;
+}

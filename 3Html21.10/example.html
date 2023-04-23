@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(77, 105, 108);
+        }
+        div.container{
+            width: 96%;
+            margin: 0 auto;
+            border: 1px solid navy;
+        }
+        .container>img{
+            width: 100%;
+            display: inline-block;
+        }
+        @media (min-width: 420px) {
+            .container>img{
+            width: 48%;
+        }
+        }
+        @media (min-width: 960px) {
+            .container>img{
+            width: 24%;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="images/photo_2020-05-15_22-44-16.jpg" alt="sunset">
+        <img src="images/photo_2022-10-21_18-57-41.jpg" alt="sunset">
+        <img src="images/photo_2020-05-15_22-44-16.jpg" alt="sunset">
+        <img src="images/photo_2022-10-21_18-57-41.jpg" alt="sunset">
+    </div>
+    <p class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, maiores, dolore illo dicta est iure eveniet laudantium, maxime suscipit nobis mollitia fugit! Ea, voluptas exercitationem dolore quidem tempora voluptatum a nam aperiam dolorem cum quo. Eveniet ab doloribus laudantium eum architecto nesciunt deserunt itaque aut placeat labore, illum facere ex ut perspiciatis enim inventore ipsa consequatur laborum. Dolor rem corporis deserunt. Incidunt repudiandae molestiae illum ex enim voluptatem impedit quam obcaecati, harum dolore doloribus reprehenderit? Beatae, accusamus? Excepturi deserunt ut deleniti non et tempore cumque aliquid voluptates quisquam unde aperiam eius vel veritatis id, autem sapiente sint. Praesentium ipsum nesciunt quos nihil labore nulla deleniti at optio, ab earum impedit et architecto mollitia maiores illo provident atque quod officia possimus dignissimos dolore corrupti delectus sint. Doloremque quae corporis dicta laborum sit ipsum ipsa nulla officiis animi iusto magni minima facilis porro, cupiditate maxime nihil temporibus, laboriosam delectus, in accusantium repellat tenetur explicabo nesciunt! Ea, ipsam dicta quisquam vitae libero eligendi rerum illum nam nisi excepturi pariatur consequatur assumenda doloremque. Deleniti, alias voluptatum labore molestiae odit consequuntur perspiciatis accusantium distinctio rerum asperiores ipsam quam culpa unde veritatis aperiam autem natus doloribus! Tempora sapiente eveniet ratione velit neque magni, sint consequatur deleniti!
+    </p>
+    <a href="example1.html"><img src="images/Valve1.png"></a>
+    <a href="images/photo_2022-10-21_18-57-41.jpg" target="frame1">Приклад 2</a>
+    <a href="images/photo_2020-05-15_22-44-16.jpg" target="frame1"><img src="smallcat1.jpg"></a>
+    <iframe src="example1.html" width="800" height="600" name="frame1"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_IKDj3IMPms" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+</body>
+</html>

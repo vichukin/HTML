@@ -1,0 +1,75 @@
+.Main{
+    display: grid;
+    grid-template-rows: 0.5fr repeat(6,1fr) 0.5fr;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    height: 700px;
+    background-color: rgb(240,240,240);
+}
+.My{
+    background-color: rgb(194, 194, 239);
+    grid-column: 2;
+    vertical-align:auto;
+    text-align: left;
+    padding: 2%;
+    width: auto;
+    height:max-content;
+    border-radius: 25px;
+    overflow: hidden;
+    border-bottom-right-radius: 0;
+}
+.Your{
+    background-color: pink;
+    grid-column: 2;
+    vertical-align:auto;
+    text-align: left;
+    padding: 2%;
+    width: auto;
+    height:max-content;
+    border-radius: 25px;
+    overflow: hidden;
+    border-bottom-left-radius: 0;
+}
+.MyIcon{
+    grid-column: 3;
+    display:grid;
+    grid-template-columns: 0.3fr 1fr;
+}
+.MyIcon>div>p{
+    margin-bottom: 0;
+}
+img{
+   height: 80%;
+}
+.time{
+    font-size: 12px;
+    text-align: left;
+    margin-top: 0;
+}
+.YourIcon{
+    grid-column: 1;
+    display:grid;
+    grid-template-columns: 1fr 0.3fr;
+}
+.YourIcon>div>p{
+    text-align: right;
+    margin-bottom: 0;
+}
+.s{
+    grid-row: 3;
+}
+.f{
+    grid-row: 2;
+}
+.t{
+    grid-row: 4;
+}
+.fourth{
+    grid-row: 5;
+}
+.fifth{
+    grid-row: 6;
+}
+.sixth{
+    grid-row: 7;
+}
+

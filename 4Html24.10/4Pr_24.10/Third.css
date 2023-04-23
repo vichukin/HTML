@@ -1,0 +1,109 @@
+body{
+    background-color: bisque;
+}
+.book{
+    right:  800px;
+    top: 100px;
+    width: 128px;
+    height: 128px;
+    scale: 1.5;
+     transform: rotate(-10deg) translateY(300px);  
+     animation: bookanim 2s linear 0.5s 1 forwards;
+    /* position: absolute;
+    transition: 3s;
+   */
+}
+@keyframes bookanim{
+    from{
+        transform: rotate(-10deg) translateY(300px);
+    }
+    to{
+        transform: rotate(-10deg) translateY(0);
+    }
+}
+.paper{
+    right:  600px;
+    top: 100px;
+    width: 128px;
+    height: 128px;
+    scale: 1.5;
+     transform: rotate(10deg) translateY(300px); 
+     animation: paperanim 2s linear 1s 1 forwards; 
+}
+ @keyframes paperanim{
+    from{
+        transform: rotate(10deg) translateY(300px);
+    }
+    to{
+        transform: rotate(10deg) translateY(0);
+    }
+} 
+.calc{
+    right:  1000px;
+    top: 175px;
+    width: 128px;
+    height: 128px;
+    scale: 1;
+     transform: rotate(-30deg) translateY(400px);  
+     animation: calcanim 2s linear  1 forwards; 
+}
+@keyframes calcanim{
+    from{
+        transform: rotate(-20deg) translateY(400px);
+    }
+    to{
+        transform: rotate(-20deg) translateY(0);
+    }
+} 
+.pallete{
+    top: 175px;
+    right:  400px;
+    width: 128px;
+    height: 128px;
+    
+    scale: 1;
+     transform: rotate(210deg) translateY(-400px);  
+     animation: palleteanim 2s linear 1.5s 1 forwards; 
+}
+@keyframes palleteanim{
+    from{
+        transform: rotate(210deg) translateY(-400px);
+    }
+    to{
+        transform: rotate(210deg) translateY(0);
+    }
+} 
+.pencil{
+    top: 250px;
+    right:  710px;
+    width: 128px;
+    height: 128px;
+    transform: rotate(90deg) translatex(350px);  
+    animation: pencilitem 2s linear 2s 1 forwards;
+}
+@keyframes pencilitem{
+    from{
+        transform: rotate(90deg) translatex(350px);
+    }
+    to{
+        transform: rotate(90deg) translateY(0);
+    }
+} 
+.photosContainer{
+    text-align: center;
+    position: relative;
+}
+.photosContainer img{
+    /* transform-origin: 50% 600px; */
+    position: absolute;
+    width: 128px;
+    height: 128x;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

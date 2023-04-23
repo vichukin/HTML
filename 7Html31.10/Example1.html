@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper{
+            border: 2px solid black;
+            display: flex;
+            margin-bottom: 20px;
+            /* flex-direction:; */
+            align-items: baseline;
+            justify-content: space-evenly;
+            height: 100px;
+        }
+        
+        .wrapper>div{
+            padding: 10px;
+        }
+        .item1{
+            background-color: aquamarine;
+        }
+        .item2{
+            background-color: lightcoral;
+        }
+        .item3{
+            background-color: lightsalmon;
+        }
+        .item4{
+            background-color: lightpink;
+        }
+        .inline{
+            display:inline-flex;
+        }
+        .wthwrap{
+            flex-wrap: wrap;
+        }
+        .wr4{
+            display: flex;
+            flex-flow: row-reverse wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="item1">item 1</div>
+        <div class="item2">item 2</div>
+        <div class="item3">item 3</div>
+        <div class="item4">item 4</div>
+        <div class="item1">item 1</div>
+        <div class="item2">item 2</div>
+        <div class="item3">item 3</div>
+        <div class="item4">item 4</div>
+    </div>
+    <div class="wrapper inline">
+        <div class="item1">item 1</div>
+        <div class="item2">item 2</div>
+        <div class="item3">item 3</div>
+        <div class="item4">item 4</div>
+        <div class="item1">item 1</div>
+        <div class="item2">item 2</div>
+        <div class="item3">item 3</div>
+        <div class="item4">item 4</div>
+    </div>
+    <div class="wrapper wthwrap">
+        <div class="item1">item 1</div>
+        <div class="item2">item 2</div>
+        <div class="item3">item 3</div>
+        <div class="item4">item 4</div>
+        <div class="item1">item 1</div>
+        <div class="item2">item 2</div>
+        <div class="item3">item 3</div>
+        <div class="item4">item 4</div>
+    </div>
+    <div class="wrapper wr4">
+        <div class="item1">item 1</div>
+        <div class="item2">item 2</div>
+        <div class="item3">item 3</div>
+        <div class="item4">item 4</div>
+        <div class="item1">item 1</div>
+        <div class="item2">item 2</div>
+        <div class="item3">item 3</div>
+        <div class="item4">item 4</div>
+    </div>
+</body>
+</html>

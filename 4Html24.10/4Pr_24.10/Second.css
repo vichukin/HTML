@@ -1,0 +1,13 @@
+img{
+    width: 200px;
+    height:  200px;
+    transition: 5s;
+    margin: 200px;
+    filter: grayscale(1);
+}
+
+img:hover{
+    scale: 2  ;
+    filter: grayscale(0);
+    
+}

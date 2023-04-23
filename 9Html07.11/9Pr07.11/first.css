@@ -1,0 +1,87 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    min-width: 500px;
+    min-height: 500px;
+    background-color: rgb(239, 70, 70);
+    width: 500px;
+    height: 500px;
+    padding-top: 1%;
+}
+div{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.logform{
+    background-color: gainsboro;
+    padding-bottom: 5%;
+}
+h1{
+    padding-top: 5%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+input{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    height: 30px;
+    font-weight: bold;
+}   
+.log{
+    background-color: limegreen;
+    margin-left: 11%;
+    margin-right: 6%;
+    width: 80%;
+    color: white;
+    border:transparent;
+    border-bottom: 2px solid rgb(14, 56, 14);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.log:hover{
+    box-shadow: 4px 9px 6px 0px rgba(0, 93, 5, 1);
+    cursor: pointer;
+}
+a{
+    text-align: center;
+    color: rgb(239, 70, 70);
+    font-weight: bold;
+
+}
+label{
+    margin-left: 28%;
+    margin-right: 28%;
+}
+.logwth{
+    margin-left: 35%;
+    margin-right: 35%;
+    color: white;
+    margin-top: 50px;
+}
+button{
+    width: 150px;
+    height: 30px;
+}
+.buttons{
+    margin-top: 2%;
+    padding-left: 7%;
+    padding-right: 10%;
+    
+}
+.fac{
+    margin-right: 10px;
+}
+.fac:hover{
+    box-shadow: 0px 5px 6px 0px rgba(0, 64, 93, 1);
+    cursor: pointer;
+}
+.twt:hover{
+    box-shadow: 0px 5px 6px 0px rgba(55, 172, 233, 1);
+    cursor: pointer;
+}

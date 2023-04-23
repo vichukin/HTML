@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            display: grid;
+            background-color: navy;
+            /* color: white; */
+            border-radius: 5px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            /* grid-template-columns: repeat(3,1fr) ; */
+            /* grid-template-rows: 25% 50% 25%; */
+            grid-column-gap: 5px;
+            grid-row-gap: 10px;
+            grid-template-columns: [col1-start] auto [col2-start] auto [col3-start] auto [col3-end];
+            grid-template-rows: [row1-start] auto [row2-start] auto [row3-start] auto [row3-end] ;
+            text-align: center;
+        }
+        .grid>div{
+            border-radius: 3px;
+            padding: 15px 30px;
+            font-size: 130%;
+            font-weight: bold;
+            background-color: lightblue;
+        }
+        .grid>div:nth-child(odd){
+            background-color: cornflowerblue;
+        }
+        .item1{
+            grid-column-start: col1-start;
+            grid-column-end: col3-end
+            
+        }
+        .item4{
+            grid-row-start: row2-start;
+            grid-row-end: row3-end;
+            grid-column-start: col3-start;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="item1">item 1</div>
+        <div >item 2</div>
+        <div >item 3</div>
+        <div class="item4">item 4</div>
+        <div >item 5</div>
+        <div >item 6</div>
+    </div>
+
+</body>
+</html>

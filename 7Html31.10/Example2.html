@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper{
+            width: 1000px;
+            display: flex;
+            margin: 0;
+            padding: 0;
+           
+        }
+        .wrapper>div{
+            background-color: limegreen;
+            padding: 10px;
+            text-align: justify;
+            width: 200px;
+            flex-basis: 10%;
+        }
+        .wrapper>div:nth-child(1){
+            background-color: lightgoldenrodyellow;
+            
+        }
+        .wrapper>div:nth-child(2){
+            background-color: lightpink;
+            /* flex-basis: 10%; */
+            min-width: 180px;
+        }
+        .wrapper>div:nth-child(3){
+            background-color: orchid;
+        }
+        .wrapper>div:nth-child(4){
+            flex-grow: 1;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            <h2>Header 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ab iusto laboriosam officia earum voluptas maxime quisquam voluptate hic consectetur quaerat possimus nostrum porro ratione unde, laborum eveniet voluptates quibusdam sed rerum! Asperiores, eum fugit? Voluptatem, ipsam eaque nostrum sequi veniam neque. Esse aspernatur delectus temporibus architecto sapiente obcaecati expedita?</p>
+        </div>
+        <div>
+            <h2>Header 2</h2>
+            <p>Earum vero modi esse, officia, reprehenderit atque ratione soluta necessitatibus nihil, rerum deserunt beatae harum fuga. Non natus voluptatum iste! Vero quidem nulla voluptatem fugiat, sapiente repellat, ex sit sunt est officia nam assumenda officiis ipsa ducimus culpa! Soluta rerum eius sed, cumque placeat sunt nostrum animi veritatis ratione est.</p>
+        </div>
+        <div>
+            <h2>Header 3</h2>
+            <p>Vitae distinctio expedita laborum voluptatibus dicta officia amet, reiciendis perferendis sequi quod. Possimus voluptatibus voluptatem at incidunt quam odio quo recusandae tempore! Similique corrupti, omnis expedita commodi eos maiores quod architecto repellat quidem sapiente nobis laborum numquam! Inventore vero cum enim, molestiae sequi iusto reprehenderit illo corrupti amet dolore qui?</p>
+        </div>
+        <div>
+            <h2>Header 4</h2>
+            <p>Perferendis, blanditiis dolore ex, unde explicabo dicta facilis quasi architecto quo libero fugit hic quisquam iste magni doloremque quos similique molestias laborum. Aut, commodi laudantium excepturi dolor totam corporis, asperiores molestias ad veritatis maiores rem sequi, deserunt minus itaque harum architecto vel cupiditate ipsam odio! Minus maiores tenetur adipisci et?</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Second.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <div class="main">
+            <h1 class="item1">Contact form</h1>
+            <p class="item2">Please fill in your information and we'll be sending your order</p>
+            <label for="" class="item3">Your name</label>
+            <label for="" class="item4">Your email</label>
+            <label for="" class="item5">Phone*</label>
+            <label for="" class="item6">Message subject*</label>
+            <label for="" class="item7">Message*</label>
+            <div class="name">
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+            </div>
+            <input type="email" placeholder="your_mail@gmai.com" class="email">
+            <select class="chose" required>
+                <option value="item1">item1</option>
+                <option value="item2">item2</option>
+                <option value="item3">item3</option>
+            </select>
+            <div class="phone">
+            <input type="number" min="000" max="999" placeholder="000" class="phoneitem" required>
+            <input type="number" min="000" max="999" placeholder="000" class="phoneitem" required>
+            <input type="number" min="0000" max="9999" placeholder="0000" class="phoneitem" required>
+            </div>
+            <textarea  class="comment" required></textarea>
+            <hr>
+            <input type="submit" value="Submit form" class="button">Submit form</button>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main
+{
+    display: grid;
+    width: 100%;
+    height: 750px;
+    grid-template-columns: 0.5fr 1.5fr 4.5fr 0.5fr;
+    grid-template-rows: 1fr 0.3fr 0.7fr 10fr;
+    background-color: rgb(221, 225, 226);
+}
+.Header
+{
+    grid-column-end: 5;
+    grid-column-start: 1;
+    background-color: rgb(72, 72, 168);
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 4.5fr 0.5fr;
+}
+.headH2
+{
+    vertical-align: middle;
+    grid-column: 2;
+    text-align: left;
+    margin-top: 20%;
+    color: white;
+}
+.headH5
+{
+    vertical-align: middle;
+    grid-column: 3;
+    text-align: right;
+    color: white;
+    margin-top: 6%;
+}
+.TwoCheckBox{
+    grid-column: 2;
+    grid-row: 2;
+   
+}
+.Search
+{
+    grid-column: 2;
+    grid-row: 3;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.Search>select,input,button
+{
+    background-repeat:no-repeat;
+    background-position: right;
+    height: 60%;
+    border-radius: 8px;
+    overflow: unset;
+    margin-right: 3%;
+    vertical-align: top;
+}
+.Search>button{
+    background-color: rgb(72, 72, 168);
+    height: 80%;
+    color: white;
+    margin-right: 0;
+}
+.Search>button:hover{
+    cursor: pointer;
+}
+.Search>select{
+    height: 72%;
+}
+.Search>select:hover{
+    cursor: pointer;
+}
+.location
+{
+    background-image: url(location.svg);
+}
+.Date{
+    height: 65%;
+}
+.Date::-webkit-calendar-picker-indicator{
+    background-image: url(calendar.svg);
+}
+.Date::-webkit-calendar-picker-indicator:hover{
+    cursor: pointer;
+}
+.Filter{
+    grid-row: 4;
+    grid-column: 2;
+    background-color:rgb(240, 240, 240);
+    margin-bottom: 10%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.Filter>*{
+    margin-left: 10%;
+}
+.Filter>label{
+    color: rgb(78, 78, 213);
+}
+.Filter>input{
+    height: 2%;
+}
+.Filter>span{
+    margin-left: 0;
+    vertical-align: top;
+    font-size: 12px;
+}
+.Filter>input:hover{
+    cursor: pointer;
+}
+.Price{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
+}
+.Price>div{
+    grid-row: 2;
+    grid-column-end: 3;
+    grid-column-start: 1;
+}
+.Price>div>span{
+    vertical-align: middle;
+}
+.Price>div>input{
+   height: 40%;
+   width: 30%;
+}
+.Result{
+    grid-row: 4;
+    grid-column: 3;
+    display: grid;
+    grid-template-rows: 0.5fr 3fr;
+    margin-left: 5%;
+    background-color:rgb(240, 240, 240);
+    margin-bottom: 3%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.Result>table{
+    grid-row: 2;
+}
+tr{
+    border: 1px solid rgb(215, 215, 215);
+}
+th{
+    background-color: rgb(215, 215, 215);
+    color:rgb(72, 72, 168);
+}
+tr,th,td{
+    height: 10%;
+    width: 16.5%;
+    margin: 0px;
+    padding: 0px;
+}
+td>button{
+    width: 70%;
+    background-color:  rgb(72, 72, 168);
+    margin-top: 1%;
+    height: 10%;
+    color: white;
+}
+td>a{
+    text-decoration: none;
+    font-size: 10px;
+}
+table{
+    border-collapse: collapse;
+    margin-bottom: 3%;
+}
+th,td{
+    vertical-align: middle;
+    text-align: center;
+}
+.Result>h3{
+    vertical-align: middle;
+    text-align: center;
+}
+td>button:hover{
+    cursor: pointer;
+}
+td>label{
+    color: rgb(150, 150, 150);
+    font-size: 13px;
+}

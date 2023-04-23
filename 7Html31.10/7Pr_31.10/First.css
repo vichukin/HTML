@@ -1,0 +1,21 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(96, 201, 117);
+    display: inline-flex;
+}
+.column{
+    margin-top: 10px;
+    margin-left: 10px;
+    min-width: 350px;
+    max-width: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    background-color: rgb(240,240,240);
+    margin: 10px;
+    min-width: 350px;
+    max-width: 350px;
+}

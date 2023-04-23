@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper{
+            width: 80%;
+            max-width: 800px;
+            margin: 10px auto;
+            background-color: rgb(234, 234, 234);
+        }
+        img{
+            width: 200px;
+            height: auto;
+        }
+        .left{
+            float: left;
+            margin: 10px auto;
+        }
+        .right{
+            float: right;
+            margin: 10px auto;
+        }
+        .clearfix::before, .clearfix::after{
+            content: "";
+            /* clear: both; */
+            display: table;
+        }
+        .clearfix::after{
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="block clearfix">
+            <h2>Zaebis</h2>
+            <img src="Zaebis.jpg" alt="Zaebis" class="left">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore quasi commodi quo voluptas nisi incidunt minima. Dicta corporis, odit doloremque ea magnam asperiores aperiam inventore sed? Alias hic earum quibusdam.</p>
+            <p>Ipsam nihil autem, quos consequuntur ex nesciunt recusandae minus ipsa repellat accusantium. Officia culpa placeat sunt quam accusamus, laboriosam, quisquam sapiente deleniti impedit enim, tempora praesentium fugit iusto atque ab.</p>
+        </div>
+        <div class="block clearfix">
+            <h2>Queen</h2>
+            <img src="queenbel.png" alt="Queenbel" class="right">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quidem vitae consequatur in ab quaerat aut, dignissimos nam facilis porro veniam sapiente facere odio harum consequuntur ex sunt? Qui, sint.</p>
+            <p>Nisi officia saepe, accusamus sit totam optio doloremque ullam inventore esse eaque, sint suscipit, perspiciatis delectus impedit autem rem quos minima unde. Voluptatum error expedita quod, quis tenetur molestiae iusto.</p>
+        </div>
+        <div class="block clearfix">
+            <h2>QueenChern</h2>
+            <img src="queenchern.png" alt="QueenChern" class="left">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum soluta eveniet quis doloribus fugit totam eaque adipisci mollitia? Nesciunt omnis commodi, nostrum tenetur quo ea minima repellendus a accusamus. Molestias?</p>
+            <p>Vitae placeat laborum nemo repudiandae nesciunt magni possimus maiores nisi cumque nam autem beatae impedit cupiditate, fuga, praesentium tempora voluptates iste, ipsa aperiam. Earum blanditiis fugit delectus iure deserunt impedit.</p>
+        </div>
+    </div>
+</body>
+
+</html>
